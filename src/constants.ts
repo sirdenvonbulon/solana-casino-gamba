@@ -53,29 +53,21 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Fake',
-    symbol: 'FAKE',
-    image: '/fakemoney.png',
+    name: 'Test',
+    symbol: 'tEST',
+    image: 'https://www.thesupersol.net/assets/images/logo192-192x192.png',
     baseWager: 1e9,
     decimals: 9,
     usdPrice: 0,
   },
   {
     mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
-    name: 'W',
-    symbol: 'Wormhole',
-    image: 'https://wormhole.com/token.png',
+    name: 'TSOS',
+    symbol: 'TSOS',
+    image: 'https://www.thesupersol.net/assets/images/logo192-192x192.png',
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,
-  },
-  {
-    mint: new PublicKey("DvLvXhe2JceV5cTx8JDGc7FQ67ozAR3iUZf5bJXBbhTE"),
-    symbol: 'DEVIL',
-    name: '$DEVIL',
-    image: "https://harlequin-payable-basilisk-127.mypinata.cloud/ipfs/QmUZLVfD1JStTADHshkQjrikR4UXAfWvkdyqZwz7j4peuj",
-    decimals: 9,
-    baseWager: 1,
   },
 ]
 
