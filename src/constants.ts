@@ -38,8 +38,8 @@ export const POOLS = [
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Fake token:
-  lp(FAKE_TOKEN_MINT),
-  // Wormhole:
+  // lp(FAKE_TOKEN_MINT),
+  // BetSol:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
 
@@ -68,6 +68,14 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,
+  },
+  {
+    mint: new PublicKey("DvLvXhe2JceV5cTx8JDGc7FQ67ozAR3iUZf5bJXBbhTE"),
+    symbol: 'DEVIL',
+    name: '$DEVIL',
+    image: "https://harlequin-payable-basilisk-127.mypinata.cloud/ipfs/QmUZLVfD1JStTADHshkQjrikR4UXAfWvkdyqZwz7j4peuj",
+    decimals: 9,
+    baseWager: 1,
   },
 ]
 
