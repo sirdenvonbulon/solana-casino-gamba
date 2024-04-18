@@ -38,7 +38,7 @@ export const POOLS = [
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Fake token:
-  // lp(FAKE_TOKEN_MINT),
+  lp(FAKE_TOKEN_MINT),
   // BetSol:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
