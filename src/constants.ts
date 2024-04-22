@@ -6,14 +6,14 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.ma
 
 // Solana address that will receive fees when somebody plays on this platform
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  'V2grJiwjs25iJYqumbHyKo5MTK7SFqZSdmoRaj8QWb9'
+  '4wkSTjYc6MG3bkMtMjzQ6hyVFaH6UuUh82U1xTjzo1Ny'
 )
 
 // Gamba explorer URL - Appears in RecentPlays
-export const EXPLORER_URL = `https://explorer.gamba.so/`;
+export const EXPLORER_URL = `https://betsol.xyz/`;
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
+export const PLATFORM_SHARABLE_URL = 'play.betsol.so'
 
 // Creator fee (in %)
 export const PLATFORM_CREATOR_FEE = 0.05 // 1% (1/100 = 0.01)
