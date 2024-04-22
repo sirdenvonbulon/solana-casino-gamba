@@ -91,20 +91,20 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>BetSOL 👋</h1>
+        <h1>BetSOL 🎲</h1>
         <p>
           A fair, simple and decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open(EXPLORER_URL, '_blank')}>
-          🚀 Add Liquidity
+        <button onClick={() => window.open('https://x.com/betsolana_', '_blank')}>
+        𝕏 Twitter
         </button>
-        <button onClick={() => window.open('https://github.com/gamba-labs/gamba', '_blank')}>
-          👨‍💻 Build your own
+        <button onClick={() => window.open('https://github.com', '_blank')}>
+        💬 Telegram
         </button>
         <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        📄 Docs
         </button>
       </Buttons>
     </Welcome>
