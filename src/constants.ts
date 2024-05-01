@@ -61,7 +61,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     usdPrice: 0,
   },
   {
-    mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+    mint: new PublicKey('BEte4Vc1MzpPKUCPH13SCRXAYZNF2Q4bzFZoaCaMqakE'),
     name: 'BETSOLANA',
     symbol: 'BET',
     image: 'https://solana-casino-gamba.vercel.app/icon-512.png',
