@@ -40,7 +40,7 @@ export const POOLS = [
   // Fake token:
   lp(FAKE_TOKEN_MINT),
   // BetSol:
-  lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  lp('BEte4Vc1MzpPKUCPH13SCRXAYZNF2Q4bzFZoaCaMqakE'),
 ]
 
 // The default token to be selected
@@ -53,20 +53,20 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'Test',
-    symbol: 'tEST',
-    image: 'https://www.thesupersol.net/assets/images/logo192-192x192.png',
+    name: 'BETSOLANA',
+    symbol: 'BET',
+    image: 'https://solana-casino-gamba.vercel.app/icon-512.png',
     baseWager: 1e9,
     decimals: 9,
     usdPrice: 0,
   },
   {
     mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
-    name: 'TSOS',
-    symbol: 'TSOS',
-    image: 'https://www.thesupersol.net/assets/images/logo192-192x192.png',
+    name: 'BETSOLANA',
+    symbol: 'BET',
+    image: 'https://solana-casino-gamba.vercel.app/icon-512.png',
     baseWager: 1e6,
-    decimals: 6,
+    decimals: 9,
     usdPrice: 0,
   },
 ]

@@ -59,7 +59,7 @@ const Welcome = styled.div`
     }
   }
 
-  background: no-repeat url("icon-512.png");
+  background: no-repeat url("twitter-header.png");
   background-size: 300% 300%;
   border-radius: 10px;
   position: relative;
@@ -93,17 +93,17 @@ export function WelcomeBanner() {
       <div>
         <h1>BetSOL 🎲</h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
         <button onClick={() => window.open('https://x.com/betsolana_', '_blank')}>
         𝕏 Twitter
         </button>
-        <button onClick={() => window.open('https://github.com', '_blank')}>
+        <button onClick={() => window.open('https://telegram.com', '_blank')}>
         💬 Telegram
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
+        <button onClick={() => window.open('https://betsol.fun/', '_blank')}>
         📄 Docs
         </button>
       </Buttons>
